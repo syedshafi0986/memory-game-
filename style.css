@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* overflow-wrap: normal; */
+    border: 2px solid black;
+    box-sizing: content-box;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+    /* box-sizing: border-box; */
+
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* padding: 50px; */
+}
+.hidden{
+    display: none;
+}
